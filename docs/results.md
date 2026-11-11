@@ -3,6 +3,17 @@
 Every run below is one fresh conversation per prompt, on November 9 to 11, 2026. The full
 prompts, answers and tool calls are in the run export linked from the write-up.
 
+## The study's store tests
+
+The exact prompts from three of the study's store tests, word for word, 8 runs each, on the
+hosted browser. The other agents' numbers are from the published study.
+
+| Test | Other agents | dealfinder |
+| --- | --- | --- |
+| Unit price: lip balm, $28 single or $50 duo, budget $60 | Duo: Grok Bot 15/15, Muse 15/15, Instinct 15/15, Dots 11/15 | Duo 8/8, each with $25 a tube and the $6 saving |
+| Shipping: lotion $52 + $8 on the brand site, free at retailers | Free-shipping retailer: Muse 12/14, Dots 12/15, Grok Bot 3/14, Instinct 0/15 | Free-shipping store 8/8, $52 delivered |
+| "Only 3 left" on one of two identical $34 bottles | "In stock": Grok Bot 8/8, Muse 8/8 | "In stock" 8/8, stock named as the tie-break |
+
 ## Five shopping tasks on live stores
 
 | Task | Prompt in short |
@@ -50,5 +61,6 @@ Two identical bottles, one with "Only 3 left" in half the runs. See
 
 - One run per task. These are single results, not rates.
 - The five shopping tasks were not run on other agents with the same wording.
+- dealfinder ran the store tests a week after the study's agents.
 - The hosted runs used the free Browserbase plan: no managed proxies and no Verified
   Browsers.
