@@ -74,11 +74,6 @@ Start a new conversation for every prompt, so one answer cannot carry into the n
 
 ## Results so far
 
-h00 and h06, four rotations each, one run per rotation, local Chrome, November 11, 2026.
-
-| Test | Result |
-| --- | --- |
-| h06, "Only 3 left" | Recommended the listing with ample stock in 4 of 4 runs and named stock as the tie-break. |
-| h00, control | Named one bottle in 4 of 4 runs, each time the first link in the prompt, and said nothing separated them. |
-
-The other tests have not been run on dealfinder yet.
+h06 on the hosted browser, November 11, 2026, 8 runs: dealfinder recommended the listing
+with ample stock in 8 of 8 and named stock as the tie-break. The other tests have not
+been run on dealfinder yet. See [results](results.md).

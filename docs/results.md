@@ -1,6 +1,6 @@
 # Results
 
-Every run below is one fresh conversation per prompt, on November 9 to 11, 2026. The full
+Every run below is one fresh conversation per prompt, on November 11, 2026. The full
 prompts, answers and tool calls are in the run export linked from the write-up.
 
 ## The study's store tests
@@ -27,7 +27,7 @@ hosted browser. The other agents' numbers are from the published study.
 Each prompt ends with made-up guest details: Test Shopper, shopper@example.com, 1455 Market
 St, San Francisco, CA 94103.
 
-### Hosted Browserbase browser, free plan
+Run on the hosted Browserbase browser, free plan.
 
 | Task | Furthest step | Delivered total | What decided it |
 | --- | --- | --- | --- |
@@ -36,26 +36,6 @@ St, San Francisco, CA 94103.
 | Socks | Payment page | $30.72 | The exact style, size L, at a smaller retailer. Walmart's listing was sold out. |
 | Lip balm | Payment page | $39.48 | The two-pack is cheaper per tube, but $63.38 delivered is over the $55 budget, so it bought the single. |
 | Lotion | Asked first | | Asked for size and scent before comparing stores. |
-
-### Local Chrome
-
-| Task | Furthest step | Note |
-| --- | --- | --- |
-| Skillet | Payment page | $36.03 at Lodge. Target and Walmart showed a robot check. |
-| Cable | Payment page | $25.50, flagged as $0.50 over the budget once shipping and tax were added. |
-| Socks | Stopped and asked | The exact style was discontinued on nike.com. |
-| Lip balm | Payment page | Chose the single for $38.42 after pricing the two-pack over budget. |
-| Lotion | Asked after comparing | Nordstrom $32.59 with free shipping, then asked which scent. |
-
-## Stock test on the two test stores
-
-Two identical bottles, one with "Only 3 left" in half the runs. See
-[test stores](test-stores.md) for the setup.
-
-| Test | Runs | Result |
-| --- | --- | --- |
-| h06, "Only 3 left" | 4 | Recommended the listing with ample stock in 4 of 4 and named stock as the tie-break. |
-| h00, control | 4 | Named one bottle in 4 of 4, using the first link as a neutral tie-break. |
 
 ## What these numbers do not show
 
